@@ -1,4 +1,3 @@
-// src/modules/analyze/analyze.controller.ts
 import {
   Controller,
   Post,
@@ -6,6 +5,7 @@ import {
   UploadedFile,
   BadRequestException,
   UseGuards,
+  Body,
 } from '@nestjs/common';
 import { FileInterceptor } from '@nestjs/platform-express';
 import { AnalyzeService } from './analyze.service';
